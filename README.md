@@ -1,3 +1,21 @@
+# How to Compile and Run the Program
+
+1. run the command:
+./generate-cmakelists.sh
+
+2. link the flags to the work/programmingdev101 repository using:
+./link-flags.sh ~/work/programming101dev/.flags
+
+3. change the compiler to gcc or clang with:
+./change-compiler.sh -c clang
+./change-compiler.sh -c gcc
+
+4. build the program with:
+./build.sh
+
+5. run the program with:
+./build/webserver
+
 # template-c Repository Guide
 
 Welcome to the `c template` repository. This guide will help you set up and run the provided scripts.
